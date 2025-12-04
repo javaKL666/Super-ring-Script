@@ -125,7 +125,7 @@ Tittle.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Tittle.BorderSizePixel = 0
 Tittle.Size = UDim2.new(0, 265, 0, 25)
 Tittle.Font = Enum.Font.SourceSans
-Tittle.Text = "黑洞 v1 "
+Tittle.Text = "黑洞 v1"
 Tittle.TextColor3 = Color3.fromRGB(0, 0, 0)
 Tittle.TextSize = 14.000
 
@@ -196,7 +196,7 @@ Watermark.BorderSizePixel = 0
 Watermark.Position = UDim2.new(0, 0, 0.826388896, 0)
 Watermark.Size = UDim2.new(0, 264, 0, 25)
 Watermark.Font = Enum.Font.SourceSans
-Watermark.Text = "我的鸡吧好大"
+Watermark.Text = "by TheHunterSolo1"
 Watermark.TextColor3 = Color3.fromRGB(0, 0, 0)
 Watermark.TextSize = 14.000
 
@@ -401,14 +401,6 @@ local userId = Players:GetUserIdFromNameAsync("Robloxlukasgames")
 local thumbType = Enum.ThumbnailType.HeadShot
 local thumbSize = Enum.ThumbnailSize.Size420x420
 local content, isReady = Players:GetUserThumbnailAsync(userId, thumbType, thumbSize)
-
-local NotificationHolder = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Module.Lua"))()
-local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Client.Lua"))()
-
-Notification:Notify(
-        {Title = "工脚本", Description = "Super Ring黑洞v1"},
-        {OutlineColor = Color3.fromRGB(0, 0, 0),Time = 9, Type = "image"},
-        {Image = "http://www.roblox.com/asset/?id=6023426923", ImageColor = Color3.fromRGB(258, 58, 68)})
 
 -- Chat message (Updated for new chat system)
 local function SendChatMessage(message)
